@@ -1,3 +1,16 @@
+# WASI Crypto for WASI 0.3+
+
+This directory contains the WIT API for WASI 0.3+.
+
+## Status
+
+This API is a moving target and is not yet stable.
+It may receive breaking changes.
+
+For production use today, use the stable WASI Preview 1 (WASI-core) API in
+[`witx/witx-0.10`](../witx/witx-0.10/).
+That API is production ready and will not receive breaking changes.
+
 ## Made changes
 
 ### Automatic

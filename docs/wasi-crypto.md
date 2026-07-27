@@ -1,8 +1,14 @@
-# WASI cryptography APIs (proposal)
+# WASI cryptography APIs
 
-This document describes `wasi-crypto`, a set of APIs that a runtime can expose to WebAssembly modules in order to perform cryptographic operations and key management.
+This document describes the stable WASI Preview 1 (WASI-core) `wasi-crypto`
+API, a set of interfaces that a runtime can expose to WebAssembly modules in
+order to perform cryptographic operations and key management.
 
-- [WASI cryptography APIs (proposal)](#wasi-cryptography-apis-proposal)
+The API is production ready and will not receive breaking changes.
+The WIT API targeting WASI 0.3+ is a moving target and is documented in
+[`wit/`](../wit/README.md).
+
+- [WASI cryptography APIs](#wasi-cryptography-apis)
 - [Modules](#modules)
 - [Common types](#common-types)
   - [Errors](#errors)
